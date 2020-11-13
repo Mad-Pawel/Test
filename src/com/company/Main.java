@@ -16,7 +16,11 @@ public class Main {
     }
     static double Dzielenie(double a, double b)
     {
+        if(b >0 || b < 0)
         return (a/b);
+        else
+            System.out.println("Nie dziel przez zero holero" );
+        return 0;
     }
     static double Potęgownie(double a, double b)
     {
